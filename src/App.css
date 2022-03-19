@@ -1,0 +1,39 @@
+#outer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 50px;
+}
+
+#inner-wrapper {
+  height: 80%;
+}
+
+.tabs-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.tabs-wrapper::before {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  z-index: -1;
+  border-bottom: 2px solid #d1d1d1;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 10px 10px 0 0;
+  background-color: #f8f8f8;
+  border: 3px solid #d1d1d1;
+  border-bottom: none;
+}

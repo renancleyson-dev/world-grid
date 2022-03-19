@@ -1,0 +1,17 @@
+#world-grid {
+  display: flex;
+  flex-flow: wrap;
+  border: 3px solid #d1d1d1;
+  border-top: none;
+  height: 100%;
+}
+
+.grid-row {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-row:not(:last-child) {
+  border-right: 1px solid #818181;
+}
