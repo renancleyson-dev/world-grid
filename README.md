@@ -15,7 +15,7 @@ The folder structure is meant to make files import only from the `/algorithms`, 
 | File/Folder         | Description                                                                                             |
 | ------------------- | ------------------------------------------------------------------------------------------------------- |
 | `public/index.html` | HTML file that receives the app's JS code.                                                              |
-| `src/index.tsx`     | Entry file. Loads the whole React App and render with `ReactDOM`.                                        |
+| `src/index.tsx`     | Entry file. Loads the whole React App and render with `ReactDOM`.                                       |
 | `src/index.css`     | Global css styles for resetting and normalizing HTML elements.                                          |
 | `src/utls.ts`       | Some generic and simple helper and pure functions.                                                      |
 | `src/components`    | Main components of the app.                                                                             |
@@ -28,7 +28,7 @@ On your working directory, open the terminal and run:
 
 ```
 git clone https://github.com/renancleyson-dev/world-grid.git
-cd island-generator && npm install
+cd world-grid && npm install
 npm start
 ```
 
