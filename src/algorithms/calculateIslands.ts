@@ -48,7 +48,7 @@ const getFilledAdjacent = (
 };
 
 /*
-  The BFS here only traverse the island and empty its cells.
+  The BFS here only traverse the island and add its cells to the visited set.
   The goal is to remove overlaps when checking for how many
   new/lost islands there's around the source.
 */
